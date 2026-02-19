@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "noImplicitAny": true,
+        "noUnusedLocals": true,
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "sourceMap": true,
+        "baseUrl": "./src",
+        "declaration": true,
+        "declarationMap": true,
+        "typeRoots": ["node_modules/@types"],
+        "types": ["jest"]
+        // "stripInternal": true,
+    },
+    "include": ["./src/**/*"],
+    "exclude": ["./node_modules", "./src/**/*.d.ts"]
+}
